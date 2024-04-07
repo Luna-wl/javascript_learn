@@ -1,0 +1,42 @@
+body {
+	--nav-width: 150px;
+	margin: 0 0 0 var(--nav-width);
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 20;
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: var(--nav-width);
+	height: 100vh;
+	background-color: #4bd6c6;
+}
+
+.nav-link {
+	display: block;
+	padding: 30px 10px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+.nav-link:hover {
+	background-color: #fff173;
+	color: rgb(128, 126, 126);
+}
+
+#app {
+	margin: 2em;
+	line-height: 1.5;
+}
+
+a {
+	color: rgb(126, 125, 124);
+}
+
+a:hover {
+	color: #4bd6ca;
+}
